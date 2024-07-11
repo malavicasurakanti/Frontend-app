@@ -1,0 +1,1 @@
+# frontend-app initgit add README.mdgit commit -m first commitgit branch -M maingit remote add origin git@github.com:malavicasurakanti/frontend-app.gitgit push -u origin main

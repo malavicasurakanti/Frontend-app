@@ -2,7 +2,7 @@
   "name": "frontend-blog-app",
   "version": "0.1.0",
   "private": true,
-   "proxy": "http://localhost:10000",
+  "proxy": "http://localhost:10000",
   "dependencies": {
     "serve": "^14.2.0",
     "@reduxjs/toolkit": "^1.9.3",
@@ -45,10 +45,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
     "rules": {
-    "no-unused-vars": "off"
-  }
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -63,7 +63,6 @@
     ]
   },
   "devDependencies": {
-     "serve": "^14.2.0",
     "@tailwindcss/typography": "^0.5.9",
     "daisyui": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.3.0",

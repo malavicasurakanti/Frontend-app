@@ -1,10 +1,4 @@
 import axios from "axios";
-import { API_URL } from '../services/index/Api.js';
-
-// Create an axios instance with the base URL
-const api = axios.create({
-  baseURL: API_URL
-});
 
 export const signup = async ({ name, email, password }) => {
   try {

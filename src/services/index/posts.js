@@ -1,9 +1,4 @@
 import axios from "axios";
-import { API_URL } from '../services/index/Api.js';
-const api = axios.create({
-  baseURL: API_URL
-});
-
 
 export const getAllPosts = async (searchKeyword = "", page = 1, limit = 10) => {
   try {

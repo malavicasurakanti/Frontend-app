@@ -1,4 +1,5 @@
 import axios from "axios";
+const Api = process.env.REACT_APP_API_URL;
 
 export const signup = async ({ name, email, password }) => {
   try {

@@ -1,4 +1,5 @@
 import axios from "axios";
+const Api = process.env.REACT_APP_API_URL;
 
 export const getAllPosts = async (searchKeyword = "", page = 1, limit = 10) => {
   try {

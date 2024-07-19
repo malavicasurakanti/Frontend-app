@@ -16,7 +16,6 @@ export const signup = async ({ name, email, password }) => {
     throw new Error(error.message);
   }
 };
-
 export const login = async ({ email, password }) => {
   try {
     const { data } = await api.post("/api/users/login", {

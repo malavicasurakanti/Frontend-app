@@ -1,6 +1,6 @@
 import axios from "axios";
 const api = axios.create({
-  domain: process.env.REACT_APP_API_URL
+  baseURL: process.env.REACT_APP_API_URL
 });
 export const signup = async ({ name, email, password }) => {
   try {

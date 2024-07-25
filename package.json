@@ -2,6 +2,7 @@
   "name": "frontend-blog-app",
   "version": "0.1.0",
   "private": true,
+  "main":"App.js",
   "dependencies": {
     "serve": "^14.2.0",
     "@reduxjs/toolkit": "^1.9.3",
@@ -36,7 +37,7 @@
   },
   "scripts": {
     "start": "serve -s build -l $PORT",
-    "build": "./render-build.sh",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

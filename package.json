@@ -61,6 +61,10 @@
       "last 1 safari version"
     ]
   },
+  "engines": {
+    "node": "20.15.1",
+    "yarn": "1.22.22"
+  },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.9",
     "daisyui": "^3.0.3",
